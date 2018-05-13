@@ -2,7 +2,7 @@
 # Implementaion of L-layer Neural Network from Scratch
 
 ## 1. Define Helper functions for General L-layer Neural Network
-These functions can be used to define NN with diferent configurations for other dataset as well. 
+These functions can be used to define NN with different configurations for other dataset as well. 
 - Introduction
 - Initialize Parameters(W,b)
 - Forward Propagation
