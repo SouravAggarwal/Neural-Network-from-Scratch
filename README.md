@@ -322,7 +322,7 @@ plt.imshow(train_x[index])
 
 
 
-![png](output_19_3.png)
+![png](images/output_19_3.png)
 
 
 
@@ -444,7 +444,7 @@ parameters=image_classifier(train_X, train_Y, layer_dims, 0.005, 1000, parameter
     
 
 
-![png](output_24_1.png)
+![png](images/output_24_1.png)
 
 
 
@@ -465,7 +465,7 @@ parameters = image_classifier(train_X, train_Y, layer_dims, 0.006, 2000, paramet
     
 
 
-![png](output_25_1.png)
+![png](images/output_25_1.png)
 
 
 
@@ -527,5 +527,5 @@ plt.imshow(train_x[indexx])
 
 
 
-![png](output_28_2.png)
+![png](images/output_28_2.png)
 
