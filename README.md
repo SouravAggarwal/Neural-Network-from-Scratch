@@ -253,7 +253,7 @@ def L_layer_backward(y_hat, Y, caches, layerdims):
 
 These parameters will be update by using Gradient Descent.
 
-<img src="images/16.png" style="width:400px;height:300px;">
+<img src="images/16.png" style="width:100px;height:300px;">
 
 
 where, alpha is Learning Rate
