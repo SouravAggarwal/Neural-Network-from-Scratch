@@ -73,9 +73,9 @@ def initialize_parameters(layerdims):
     - Linear -> Activation(Relu)   
 - for L th layer (ie. last layer)
     - Linear -> Activation(sigmoid)
-$$Z^{[l]} = W^{[l]}A^{[l-1]} +b^{[l]}$$
-$$A = activation(Z)$$
-where $A^{[0]} = Input matrix(X)$. 
+<img src="images/13.png" style="width:400px;height:250px;">
+
+where A[0] = Inputmatrix(X). 
 
     
 
@@ -144,7 +144,9 @@ def L_layer_forward(X, parameters, layerdims):
 ```
 
 ## 1.4 Cost function
-Computing the cross-entropy cost $J$, : $$J = -\frac{1}{m} \sum\limits_{i = 1}^{m} (y^{(i)}\log\left(a^{[L] (i)}\right) + (1-y^{(i)})\log\left(1- a^{[L](i)}\right)) $$
+Computing the cross-entropy cost J, :
+<img src="images/14.png" style="width:400px;height:250px;">
+
 
 
 ```python
@@ -164,11 +166,7 @@ def compute_cost(y_hat, Y):
 
 ## 1.5 Backward Propagation
 
-$$ dAL = \frac{\partial \mathcal{J} }{\partial AL} = - (\frac{Y}{AL}+\frac{1-Y}{1-AL})$$
-
-$$ dW^{[l]} = \frac{\partial \mathcal{J} }{\partial W^{[l]}} = \frac{1}{m} dZ^{[l]} A^{[l-1] T} $$
-$$ db^{[l]} = \frac{\partial \mathcal{J} }{\partial b^{[l]}} = \frac{1}{m} \sum_{i = 1}^{m} dZ^{[l](i)}$$
-$$ dA^{[l-1]} = \frac{\partial \mathcal{J} }{\partial A^{[l-1]}} = W^{[l] T} dZ^{[l]} $$
+<img src="images/15.png" style="width:500px;height:250px;">
 
 
 
@@ -254,8 +252,9 @@ def L_layer_backward(y_hat, Y, caches, layerdims):
 ## 1.6 Update Parameters
 
 These parameters will be update by using Gradient Descent.
-$$ W^{[l]} = W^{[l]} - \alpha \text{ } dW^{[l]} $$
-$$ b^{[l]} = b^{[l]} - \alpha \text{ } db^{[l]} $$
+
+<img src="images/16.png" style="width:300px;height:300px;">
+
 
 where, alpha is Learning Rate
 
