@@ -145,7 +145,7 @@ def L_layer_forward(X, parameters, layerdims):
 
 ## 1.4 Cost function
 Computing the cross-entropy cost J, :
-<img src="images/14.png" style="width:400px;height:250px;">
+<img src="images/14.png" style="width:200px;height:100px;">
 
 
 
@@ -166,7 +166,7 @@ def compute_cost(y_hat, Y):
 
 ## 1.5 Backward Propagation
 
-<img src="images/15.png" style="width:500px;height:250px;">
+<img src="images/15.png" style="width:250px;height:250px;">
 
 
 
@@ -253,7 +253,7 @@ def L_layer_backward(y_hat, Y, caches, layerdims):
 
 These parameters will be update by using Gradient Descent.
 
-<img src="images/16.png" style="width:300px;height:300px;">
+<img src="images/16.png" style="width:400px;height:300px;">
 
 
 where, alpha is Learning Rate
