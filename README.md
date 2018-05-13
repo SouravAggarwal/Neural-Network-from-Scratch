@@ -2,7 +2,7 @@
 # Implementaion of L-layer Neural Network from Scratch
 
 ## 1. Define Helper functions for General L-layer Neural Network
-These funcitions can be used to define NN with different configurations for other dataset as well. 
+These funcitions can be used to define NN with diferent configurations for other dataset as well. 
 - Introduction
 - Initialize Parameters(W,b)
 - Forward Propagation
@@ -253,7 +253,7 @@ def L_layer_backward(y_hat, Y, caches, layerdims):
 
 These parameters will be update by using Gradient Descent.
 
-<img src="images/16.png" style="width:100px;height:300px;">
+<img src="images/16.png" style="width:550px;height:200px;">
 
 
 where, alpha is Learning Rate
