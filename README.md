@@ -308,15 +308,7 @@ plt.imshow(train_x[index])
 
     Training Input Data (209, 64, 64, 3)
     Training labels(1, 209)
-    
-
-    C:\anaconda\lib\site-packages\h5py\__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-      from ._conv import register_converters as _register_converters
-    
-
-
-
-
+ 
     <matplotlib.image.AxesImage at 0x20c58ce4ba8>
 
 
