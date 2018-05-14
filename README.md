@@ -23,8 +23,8 @@ These functions can be used to define NN with different configurations for other
 
 ## 1.1 Introduction
 To build a L-layer NN, we need some helper function which will be useful for implementing a simple NN. These will be general function can be used with other dataset as well.
--[Linear -> Relu ] for (1,2,3...L-1 layers)
--[Linear -> Sigmoid] for (layer L)
+      -[Linear -> Relu ] for (1,2,3...L-1 layers)
+      -[Linear -> Sigmoid] for (layer L)
 <img src="images/first.jpg" style="width:800px;height:450px;">
 
 
