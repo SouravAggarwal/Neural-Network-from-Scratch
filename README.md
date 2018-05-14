@@ -26,6 +26,7 @@ To build a L-layer NN, we need some helper function which will be useful for imp
 - [Linear -> Relu ] for (1,2,3...L-1 layers)
 - [Linear -> Sigmoid] for (layer L)
 <img src="images/first.jpg" style="width:800px;height:450px;">
+[I'm an inline-style link](https://www.google.com)
 
 
 ### Dimensions
